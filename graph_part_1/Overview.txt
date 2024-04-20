@@ -1,0 +1,48 @@
+
+1. Graph Representation 
+2. Depth First Search (DFS)
+3. Finding connected component 
+4. Bipartite graph Test ( Two coloring)
+5. Cycle detection 
+6. In /Out time of node 
+7. Finding Diameter of a graph or there
+8. Finding Bridges (Cut edges )
+9. Finding Articulation points ( Cut Vertex)
+10.Finding Euler Circuits 
+11. Breath First Search (BFS)
+12.Cycle Detection Using BFS 
+13. Finding shortest path from a given node to any other node ( in unweighted graph)
+14. Finding Strongly conected component (kusaraju's Algorithm)
+15.Finding strong connected component ( Tarjan's Algorithm)
+
+
+Connected component -> if you choose two node there is a path between them
+         1
+        /   
+       2
+     /  \
+    3   5           1                   1
+       / \                             / \
+       7  8                            2  3
+
+Cut Vertex (Articculation point )
+Cut those vertex than the connected component will increase 
+
+         1
+        /   
+      *2
+     /  \
+    3   *5          
+       / \                          
+       7  8  
+
+Cut Edge (Bridges)
+Cut edges so that the connected component are increase 
+
+         1
+        /*   
+       2
+     /  \
+    3    5          
+     \  / \*                          
+       7  8  
